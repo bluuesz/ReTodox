@@ -1,0 +1,13 @@
+{
+  "name": "ReTodox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bluuesz/ReTodox.git",
+  "author": "bluuesz <wosleyv@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "db": "docker-compose up --build",
+    "server": "cd server && mix do deps.get, deps.compile, compile && mix run --no-halt",
+    "front": "cd front && yarn install && yarn re:build && yarn dev"
+  }
+}

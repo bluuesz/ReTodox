@@ -1,0 +1,27 @@
+{
+  "name": "concepts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@dylanirlbeck/tailwind-ppx": "^0.8.4",
+    "bs-platform": "^8.4.2",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "@ahrefs/bs-emotion": "^2.0.0",
+    "@davesnx/styled-ppx": "^0.20.0",
+    "@glennsl/bs-json": "^5.0.2",
+    "bs-axios": "^0.0.43",
+    "bs-fetch": "^0.6.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reason-react": "^0.9.1"
+  },
+  "scripts": {
+    "re:build": "bsb -make-world -clean-world",
+    "re:watch": "bsb -make-world -clean-world -w",
+    "dev": "parcel public/index.html --port 3000"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "warnings": {
+    "error": "+101"
+  },
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "reason-react",
+    "@ahrefs/bs-emotion",
+    "bs-fetch",
+    "@glennsl/bs-json"
+  ],
+  "ppx-flags": ["@davesnx/styled-ppx/styled-ppx"],
+  "refmt": 3,
+  "reason": {
+    "react-jsx": 3
+  }
+}
