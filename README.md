@@ -1,6 +1,6 @@
 # ReTodox
 
-A simple crud for learning about [Elixir](https://elixir-lang.org/) and [ReScript]("https://rescript-lang.org/")
+A simple crud for learning about [Elixir](https://elixir-lang.org/) and [ReScript](https://rescript-lang.org/)
 
 ## How to run
 
